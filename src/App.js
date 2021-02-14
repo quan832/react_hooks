@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.scss';
+import ColorBox from './Components/colorBox';
 
 function App() {
   return (
     <div className="App">
-     <h1>React-Hooks</h1>
+      <h1>React-Hooks-Basic</h1>
+      <ColorBox></ColorBox>
     </div>
   );
 }
